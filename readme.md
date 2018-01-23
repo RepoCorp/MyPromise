@@ -35,6 +35,9 @@ bundle exec rails webpacker:install
 
 ## TODO
 
-Persist Bundle
 Persist DB
+Remove IDE javascript version import error validation
+
+
+
 
