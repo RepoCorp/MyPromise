@@ -36,7 +36,7 @@ bundle exec rails webpacker:install
 ## TODO
 
 Persist DB
-Remove IDE javascript version import error validation
+Remove IDE javascript version import error validation   (would just npm install work?)
 
 
 
