@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    image: postgres
+  web:
+    build: .
+    command: foreman start
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
