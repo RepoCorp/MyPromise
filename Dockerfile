@@ -12,9 +12,4 @@ RUN apt-get install apt-transport-https -y \
     && apt-get update -y \
     && apt-get install yarn -y
 
-RUN mkdir /app
 WORKDIR /app
-COPY Gemfile /app/Gemfile
-COPY Gemfile.lock /app/Gemfile.lock
-RUN bundle install
-COPY . /app
