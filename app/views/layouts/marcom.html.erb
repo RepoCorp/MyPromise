@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagless</title>
+    <!--<script src="https://use.typekit.net/uub4mac.js"></script>-->
+    <!--<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>-->
+    <!--<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js" defer><\/script>')</script>-->
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

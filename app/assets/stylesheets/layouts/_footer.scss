@@ -1,0 +1,27 @@
+@import '../base/variables';
+
+#footer {
+	@extend %clearfix !optional;
+	
+	position: relative;
+}
+
+.copyright {
+	position: absolute;
+	top: -27px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: $white;
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	
+	a {
+		color: $white;
+		
+		&:hover {
+			color: $blue;
+		}
+	}
+}
